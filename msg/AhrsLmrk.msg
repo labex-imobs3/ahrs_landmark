@@ -1,0 +1,22 @@
+Header header
+
+float64 G_x
+float64 G_y
+float64 G_z
+float64 A_x
+float64 A_y
+float64 A_z
+float64 Temp
+float64 Mgn_x
+float64 Mgn_y
+float64 Mgn_z
+float64 Pressure
+float64 AttRot_x
+float64 AttRot_y
+float64 AttRot_z
+float64 Vx
+float64 Vy
+float64 Vz
+float64 BaroAlt
+float64 Temperature
+float64 AirSpeed

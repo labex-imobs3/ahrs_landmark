@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ahrs_landmark</name>
+  <version>0.0.0</version>
+  <description>ahrs_landmark : landmark ahrs for robotics</description>
+  <maintainer email="laurent.malaterre@uca.fr">Laurent Malaterre</maintainer>
+  <license>BSD</license>
+  <author email="laurent.malaterre@uca.fr">Laurent Malaterre</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>message_generation</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>message_filters</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>vbus_sockets</depend>
+  <depend>tf</depend>
+
+</package>

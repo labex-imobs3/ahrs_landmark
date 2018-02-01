@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ahrs_landmark" type="ahrs_landmark" name="ahrs_landmark" output="screen"> 
+    <rosparam file="$(find ahrs_landmark)/config/param_ahrs.yaml" command="load"/>
+  </node>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ahrs_landmark)/rviz_cfg/ahrs_test.rviz" />
+</launch>

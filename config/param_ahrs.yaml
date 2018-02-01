@@ -1,0 +1,8 @@
+serial_dev: '/dev/ttyUSB0'
+frame_id: 'ahrs_link'
+parent_frame_id: 'base_link'
+linear_acceleration_stddev: 0.
+angular_velocity_stddev: 0.
+magnetic_field_stddev: 0.
+orientation_stddev: 0.
+local_gravity: 9.81
